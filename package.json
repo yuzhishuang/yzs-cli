@@ -1,0 +1,25 @@
+{
+  "name": "yzs-cli",
+  "version": "1.0.0",
+  "description": "尝试脚手架",
+  "main": "index.js",
+  "bin": {
+    "yzs": "bin/yzs.js",
+    "yzs-add": "bin/yzs-add.js",
+    "yzs-delete": "bin/yzs-delete.js",
+    "yzs-init": "bin/yzs-init.js",
+    "yzs-list": "bin/yzs-list.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yzs",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.0.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.3.3",
+    "ora": "^4.0.5"
+  }
+}
